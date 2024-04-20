@@ -140,4 +140,9 @@ public class JobData {
         }
     }
 
+    public static ArrayList<HashMap<String, String>> getAllJobs() {
+        return allJobs;
+    }
+
+
 }
