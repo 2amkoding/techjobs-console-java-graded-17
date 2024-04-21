@@ -20,6 +20,7 @@ public class TechJobs {
         columnChoices.put("position type", "Position Type");
         columnChoices.put("all", "All");
 
+
         // Top-level menu options
         HashMap<String, String> actionChoices = new HashMap<>();
         actionChoices.put("search", "Search");
@@ -112,7 +113,7 @@ public class TechJobs {
                 validChoice = true;
             }
 
-        } while(!validChoice);
+        } while (!validChoice);
 
         return choiceKeys[choiceIdx];
     }
@@ -131,6 +132,11 @@ public class TechJobs {
 
             }
             System.out.println("*****");
+        }
+
+        int size = someJobs.size();
+        if(size == 0) {
+            System.out.print("No Results");
         }
 
     }
