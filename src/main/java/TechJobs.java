@@ -133,6 +133,7 @@ public class TechJobs {
             }
             System.out.println("*****");
         }
+        
 
         int size = someJobs.size();
         if(size == 0) {
